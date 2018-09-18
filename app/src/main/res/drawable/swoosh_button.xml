@@ -3,4 +3,4 @@
     <solid android:color="#66000000"  />
     <stroke android:color="@android:color/white"
         android:width="2dp"/>
-</selector>
+</shape>
