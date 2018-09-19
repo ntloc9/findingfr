@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LeagueActivity">
+    tools:context=".Controller.LeagueActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="24dp"
         android:fontFamily="monospace"
         android:text="@string/desired_league"
         android:textColor="#dedede"
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="16dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +66,7 @@
         <ToggleButton
             android:id="@+id/mensLeagueBtn"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="50dp"
             android:background="@drawable/swoosh_toggle"
             android:onClick="mensLeagueClicked"
             android:text="@string/mens"
@@ -80,7 +80,7 @@
         <ToggleButton
             android:id="@+id/womansLeagueBtn"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="50dp"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/swoosh_toggle"
@@ -93,7 +93,7 @@
         <ToggleButton
             android:id="@+id/coedLeagueBtn"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="50dp"
             android:background="@drawable/swoosh_toggle"
             android:onClick="coedLeagueClicked"
             android:text="@string/co_ed"

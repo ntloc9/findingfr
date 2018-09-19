@@ -1,8 +1,7 @@
-package locnguyen.com.swoosh
+package locnguyen.com.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.util.Log.d
 
 open class BaseActivity : AppCompatActivity() {
